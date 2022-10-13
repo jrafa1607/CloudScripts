@@ -12,6 +12,10 @@ O modelo está disponível neste repositório com o nome: contas
 
 As automações são:
 
+- Aws_GetAndPutVersionings3.sh: Verifica se o versionamento do s3 está habilitado, e em seguida, habilita.
+- Aws_GetSG.sh: Coleta informações sobre todos os SecurityGroup presente na LandingZone.
+- Aws_IncreaseQuotas_PoliciesForRoles.sh: Faz o request para o aumento de quotas de policies em roles.
+- Aws_IncreaseQuotas_VpcForRegions.sh: Faz o request para o aumento de quotas de vpcs por regioes.
 - Aws_ListDocumentsDB: Listagem de DocumentsDB
 - Aws_ListEc2WithIdInformation: Listagem de Ec2 + Informações de execução (Stopped / Running)
 - Aws_ListEc2WithIdInformation: Listagem de Ec2 + Informações de Rede, como IPV4, DNS, SG, dentre outras
