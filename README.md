@@ -14,6 +14,7 @@ The Scripts Are:
 - Aws_GetSG.sh: Collects information about every SecurityGroup present in the LandingZone.
 - Aws_IncreaseQuotas_PoliciesForRoles.sh: Makes the request to increase policy quotas in roles.
 - Aws_IncreaseQuotas_VpcForRegions.sh: Makes a request to increase Vpcs quotas by regions.
+- AWS_ListAllStackWithRollbackFailed.sh: List all Stacks in LandingZone with the status: UPDATE_ROLLBACK_FAILED.
 - Aws_ListDocumentsDB: DocumentsDB List in the LandingZone
 - Aws_ListEc2WithIdInformation: Ec2 List + Info about Status (Stopped / Running)
 - Aws_ListEc2WithIdInformation: Ec2 List + Info about Nextwork (IPV4, DNS, SG, etc.)
