@@ -10,6 +10,7 @@ Finally, just create a directory and insert a file with the name of all configur
 The Scripts Are:
 
 - Aws_GetAndPutVersionings3.sh: Checks that s3 versioning is enabled, then enable it if isn't.
+- Aws-GetIAM.sh: List All IAM Users With Information About the AccessKeys, included the Last Access.
 - Aws_GetSG.sh: Collects information about every SecurityGroup present in the LandingZone.
 - Aws_IncreaseQuotas_PoliciesForRoles.sh: Makes the request to increase policy quotas in roles.
 - Aws_IncreaseQuotas_VpcForRegions.sh: Makes a request to increase Vpcs quotas by regions.
