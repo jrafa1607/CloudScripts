@@ -1,19 +1,16 @@
 # CloudScripts
 
-Neste repositório, está centralizado algoritmos em ShellScripts para Automações de comandos em ShellScript para AWS
-Para isso, é necessário instalar e configrar o AWS CLI
-Link de Instalação: https://aws.amazon.com/pt/cli/
+In this repository, the ShellScripts are developed for Command Automations in AWS. For this, you need to install and configure the AWS CLI
+Installation Link: https://aws.amazon.com/pt/cli/
 
-Em seguida, é necessário configurar o arquivo de config do diretório .aws e inserir os profiles da conta.
-O modelo está disponível neste repositório com o nome: config
+After that, you need to configure the .aws directory configuration file and enter the account profiles. The model is available in this repository with the name: config
 
-Por fim, basta criar um diretório e inserir um arquivo com o nome de todos os profiles configurados.
-O modelo está disponível neste repositório com o nome: contas
+Finally, just create a directory and insert a file with the name of all configured profiles. The template is available in this repository under the name: accounts
 
-As automações são:
+The Scripts Are:
 
-- Aws_GetAndPutVersionings3.sh: Verifica se o versionamento do s3 está habilitado, e em seguida, habilita.
-- Aws_GetSG.sh: Coleta informações sobre todos os SecurityGroup presente na LandingZone.
+- Aws_GetAndPutVersionings3.sh: Checks that s3 versioning is enabled, then enable it if isn't.
+- Aws_GetSG.sh: Collects information about every SecurityGroup present in the LandingZone.
 - Aws_IncreaseQuotas_PoliciesForRoles.sh: Faz o request para o aumento de quotas de policies em roles.
 - Aws_IncreaseQuotas_VpcForRegions.sh: Faz o request para o aumento de quotas de vpcs por regioes.
 - Aws_ListDocumentsDB: Listagem de DocumentsDB
