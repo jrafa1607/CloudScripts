@@ -11,8 +11,8 @@ The Scripts Are:
 
 - Aws_GetAndPutVersionings3.sh: Checks that s3 versioning is enabled, then enable it if isn't.
 - Aws_GetSG.sh: Collects information about every SecurityGroup present in the LandingZone.
-- Aws_IncreaseQuotas_PoliciesForRoles.sh: Faz o request para o aumento de quotas de policies em roles.
-- Aws_IncreaseQuotas_VpcForRegions.sh: Faz o request para o aumento de quotas de vpcs por regioes.
-- Aws_ListDocumentsDB: Listagem de DocumentsDB
-- Aws_ListEc2WithIdInformation: Listagem de Ec2 + Informações de execução (Stopped / Running)
-- Aws_ListEc2WithIdInformation: Listagem de Ec2 + Informações de Rede, como IPV4, DNS, SG, dentre outras
+- Aws_IncreaseQuotas_PoliciesForRoles.sh: Makes the request to increase policy quotas in roles.
+- Aws_IncreaseQuotas_VpcForRegions.sh: Makes a request to increase Vpcs quotas by regions.
+- Aws_ListDocumentsDB: DocumentsDB List in the LandingZone
+- Aws_ListEc2WithIdInformation: Ec2 List + Info about Status (Stopped / Running)
+- Aws_ListEc2WithIdInformation: Ec2 List + Info about Nextwork (IPV4, DNS, SG, etc.)
