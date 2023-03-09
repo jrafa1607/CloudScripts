@@ -1,0 +1,6 @@
+[profile <Account-Name>]
+sso_start_url = URL
+sso_region = <region>
+sso_account_id=<ID Number>
+sso_role_name = <PermissionSet>
+output = json
