@@ -30,16 +30,16 @@ Lembrando que o arquivo <b>contas</b> deve ter o nome das contas do seu ambiente
 `<AccountName-Num2>`
 
 #### Arquivo Config
-`[profile <AccountName-Num1>]`
-`sso_start_url = URL`
-`sso_region = <region>`
-`sso_account_id=<ID Number>`
-`sso_role_name = <PermissionSet>`
-`output = json`
+`[profile <AccountName-Num1>]`<br>
+`sso_start_url = URL`<br>
+`sso_region = <region>`<br>
+`sso_account_id=<ID Number>`<br>
+`sso_role_name = <PermissionSet>`<br>
+`output = json`<br>
 
-[profile <AccountName-Num2>]
-sso_start_url = URL
-sso_region = <region>
-sso_account_id=<ID Number>
-sso_role_name = <PermissionSet>
-output = json
+`[profile <AccountName-Num2>]`<br>
+`sso_start_url = URL`<br>
+`sso_region = <region>`<br>
+`sso_account_id=<ID Number>`<br>
+`sso_role_name = <PermissionSet>`<br>
+`output = json`<br>
