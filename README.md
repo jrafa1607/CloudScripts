@@ -12,19 +12,24 @@
   <img src="cloud-img.png" alt="Cloud Computing" style="width: 350px; height: 350px;">
 </p>
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Nesse repositório, estão armazenadas as automações desenvolvidas para realizarem tarefas Cross-Region e Multi-Account. Todas as automações foram desenvolvidas em ShellScript.
 
-### Ajustes e melhorias
+## AWS
+### 💻 Pré-requisitos
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+-In this repository, the ShellScripts are developed for Command Automations in AWS. For this, you need to install and configure the AWS CLI
+Installation Link: https://aws.amazon.com/pt/cli/
 
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+After that, you need to configure the .aws directory configuration file and enter the account profiles. The model is available in this repository with the name: config
 
-## 💻 Pré-requisitos
+Finally, just create a directory and insert a file with the name of all configured profiles. The template is available in this repository under the name: accounts
+
+
+
+
+
+
+
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
