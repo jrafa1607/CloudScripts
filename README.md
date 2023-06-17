@@ -19,18 +19,17 @@
 
 Para executar as automações desenvolvidas para ambientes AWS, é necessário:
 - [x] [Instalação e Configuração do AWS CLI](https://aws.amazon.com/pt/cli/)
-- [x] [Configurar no Diretório .AWS os arquivos `<b> Config </b>` e `<b> Credentials </b>`
-- [x] [Copiar os arquivos das automações disponíveis neste repositório para um diretório na home do seu usuário.
-- [x] [Copiar para dentro do diretório recém-criado, o arquivo chamado "contas"]
+- [x] Configurar no Diretório .AWS os arquivos `Config` e `Credentials`
+- [x] Copiar as automações disponíveis neste repositório para um diretório na home do seu usuário.
+- [x] Copiar para dentro do diretório recém-criado, o arquivo chamado "contas"]
 
-- Lembrando que o arquivo <b>contas</b> deve ter o nome das contas do seu ambiente AWS, o mesmo nome configurado no arquivo <b> Config </b>.
-Por exemplo:
+Lembrando que o arquivo <b>contas</b> deve ter o nome das contas do seu ambiente AWS, o mesmo nome configurado no arquivo <b>Config</b>. Por exemplo:
 
-Arquivo Contas
+#### Arquivo Contas
 <AccountName-Num1>
 <AccountName-Num2>
 
-Arquivo Config
+#### Arquivo Config
 [profile <AccountName-Num1>]
 sso_start_url = URL
 sso_region = <region>
