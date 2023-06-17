@@ -26,7 +26,7 @@ Para executar as automações desenvolvidas para ambientes AWS, é necessário:
 Lembrando que o arquivo <b>contas</b> deve ter o nome das contas do seu ambiente AWS, o mesmo nome configurado no arquivo <b>Config</b>. Por exemplo:
 
 #### Arquivo Contas
-`<AccountName-Num1>`
+`<AccountName-Num1>`<br>
 `<AccountName-Num2>`
 
 #### Arquivo Config
