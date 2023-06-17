@@ -26,16 +26,16 @@ Para executar as automações desenvolvidas para ambientes AWS, é necessário:
 Lembrando que o arquivo <b>contas</b> deve ter o nome das contas do seu ambiente AWS, o mesmo nome configurado no arquivo <b>Config</b>. Por exemplo:
 
 #### Arquivo Contas
-<AccountName-Num1>
-<AccountName-Num2>
+`<AccountName-Num1>`
+`<AccountName-Num2>`
 
 #### Arquivo Config
-[profile <AccountName-Num1>]
-sso_start_url = URL
-sso_region = <region>
-sso_account_id=<ID Number>
-sso_role_name = <PermissionSet>
-output = json
+`[profile <AccountName-Num1>]`
+`sso_start_url = URL`
+`sso_region = <region>`
+`sso_account_id=<ID Number>`
+`sso_role_name = <PermissionSet>`
+`output = json`
 
 [profile <AccountName-Num2>]
 sso_start_url = URL
