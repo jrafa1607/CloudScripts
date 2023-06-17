@@ -17,6 +17,9 @@
 ## AWS
 ### 💻 Pré-requisitos
 
+Para executar as automações desenvolvidas para ambientes AWS, é necessário:
+- [x] [AWS CLI](https://aws.amazon.com/pt/cli/)
+
 -In this repository, the ShellScripts are developed for Command Automations in AWS. For this, you need to install and configure the AWS CLI
 Installation Link: https://aws.amazon.com/pt/cli/
 
