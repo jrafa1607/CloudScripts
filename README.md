@@ -8,7 +8,9 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="cloud-img.png" alt="Cloud Computing" widht="320" height="240" class="center">
+<div style="text-align: center;">
+  <img src="cloud-img.png" alt="Cloud Computing" style="width: 350px; height: 350px;">
+</div>
 
 > Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
 
