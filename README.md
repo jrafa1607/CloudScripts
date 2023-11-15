@@ -1,15 +1,12 @@
 # Cloud Scripts - Automações
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
-
-> Nesse repositório, estão armazenadas as automações desenvolvidas para realizarem tarefas Cross-Region e Multi-Account. Todas as automações foram desenvolvidas em ShellScript.
+> This repository stores the automations developed to perform Cross-Region and Multi-Account tasks. All automations were developed in Python or ShellScript.
 
 ## AWS
-### 🚀💻 Pré-requisitos
+### 🚀💻 Prerequisites
 
-Para executar as automações desenvolvidas para ambientes AWS, é necessário:
-- [x] [Instalação e Configuração do AWS CLI](https://aws.amazon.com/pt/cli/)
-- [x] Configurar no Diretório .AWS os arquivos `Config` e `Credentials`
+- [x] [CLI Install and Configuration](https://aws.amazon.com/pt/cli/)
+- [x] Config the files: `Config` e `Credentials` on the directory .AWS 
 - [x] Copiar as automações disponíveis neste repositório para um diretório na home do seu usuário.
 - [x] Copiar para dentro do diretório recém-criado, o arquivo chamado "contas"
 
