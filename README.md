@@ -1,22 +1,23 @@
 # CloudScripts
 > This repository stores the automations developed to perform Cross-Region and Multi-Account tasks. 
-> All automations were developed in Python or ShellScript.
+> 14:48 15/11/2023All automations were developed in Python or ShellScript.
 
 ## AWS
 ### 🚀💻 Prerequisites
 
 - [x] [CLI Install and Configuration](https://aws.amazon.com/pt/cli/)
 - [x] Config the files: `Config` e `Credentials` on the directory .AWS 
-- [x] Copiar as automações disponíveis neste repositório para um diretório na home do seu usuário.
-- [x] Copiar para dentro do diretório recém-criado, o arquivo chamado "contas"
+- [x] Copy the scripts located in this repositoty to your environment.
+- [x] Copy to your enviroment the file: `Contas`
+- [x] Insert the ID's Number Accounts of your AWS LangindZone in the file: `Contas`, like:
 
-Lembrando que o arquivo <b>contas</b> deve ter o nome das contas do seu ambiente AWS, o mesmo nome configurado no arquivo <b>Config</b>. Por exemplo:
-
-#### Arquivo Contas
+#### File: Contas
 `<AccountName-Num1>`<br>
 `<AccountName-Num2>`
 
-#### Arquivo Config
+- [x] Configure the Config file with [AWS SSO Configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html) or Using these structure:
+
+#### File: Config
 `[profile <AccountName-Num1>]`<br>
 `sso_start_url = URL`<br>
 `sso_region = <region>`<br>
