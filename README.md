@@ -1,6 +1,6 @@
 # CloudScripts
 > This repository stores the automations developed to perform Cross-Region and Multi-Account tasks. 
-> 14:48 15/11/2023All automations were developed in Python or ShellScript.
+> All automations were developed in Python or ShellScript.
 
 ## AWS
 ### 🚀💻 Prerequisites
