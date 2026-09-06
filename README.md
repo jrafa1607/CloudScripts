@@ -1,5 +1,5 @@
 ### ☁️ AWS Cloud Automations 🚀
-> *A robust collection of scripts and automations designed for efficient, secure, and multi-account AWS management.*
+*A robust collection of scripts and automations designed for efficient, secure, and multi-account AWS management.*
 
 [![AWS CLI](https://img.shields.io/badge/AWS%20CLI-v2-orange?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/cli/)
 [![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -28,14 +28,13 @@ Designed for **Cloud Engineers, DevOps, and SRE professionals**, these automatio
 ---
 
 ### 🛠️ Setup Guide
-The automations available in this Repository use the **AWS Command Line Interface (CLI)** configured with **AWS Identity Center (SSO)** credentials[cite: 1]. Follow the steps below to configure your environment:
+The automations available in this Repository use the **AWS Command Line Interface (CLI)** configured with **AWS Identity Center (SSO)** credentials. Follow the steps below to configure your environment:
 
 #### Prerequisites & Configuration Steps
-
-1. **AWS CLI Installation:** Ensure that the latest available version of the AWS CLI is Installed and Operational in your environment: [AWS CLI](https://aws.amazon.com/cli/)[cite: 1].
-2. **Configure AWS SSO:** To set up a Valid SSO Credential, use the Official AWS Guide: [Configure the AWS CLI for AWS SSO](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html)[cite: 1].
-3. **Local Repository Setup:** You will need to copy the desired automations from this repository into a local directory in your environment[cite: 1].
-4. **Account Definition:** Create a File named `accounts` in your local environment's directory[cite: 1].
+1. **AWS CLI Installation:** Ensure that the latest available version of the AWS CLI is Installed: [AWS CLI](https://aws.amazon.com/cli/).
+2. **Configure AWS SSO:** To set up a Valid SSO Credential, use the Official AWS Guide: [Configure the AWS CLI for AWS SSO](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html).
+3. **Local Repository Setup:** You will need to copy the desired automations from this repository into a local directory in your environment.
+4. **Account Definition:** Create a File named `accounts` in your local environment's directory.
 5. **Update the File:** Update this File with the **Account Names** where you intend to run the automations. 
 
 #### File Example: `accounts`
@@ -45,7 +44,6 @@ The automations available in this Repository use the **AWS Command Line Interfac
 <ProfileName-Num2>
 <ProfileName-Num3>
 <ProfileName-Num4>
-
 ```
 
 6. **Authentication (SSO Credentials Configuration):**
