@@ -18,12 +18,12 @@ Designed for **Cloud Engineers, DevOps, and SRE professionals**, these automatio
 
 ### ✨ Why Automate AWS Operations?
 
-| Pillar | Advantage | Description |
-| :--- | :--- | :--- |
-| 💰 **Cost Optimization** | **Efficiency** | Remove and Handle idle, obsolete, and orphaned resources. |
-| 🛡️ **Compliance** | **Governance** | Ensure that Resources and Configurations are always in **Compliance**. |
-| 📈 **Scalability** | **Multi-Account** | Apply complex actions quickly across **Multiple Accounts and Regions**. |
-| ⚙️ **Standardization** | **Risk Reduction** | Automating Tasks removes the Variability and Risk associated with Manual Practices. |
+| Pillar | Description |
+| :--- | :--- |
+| 💰 **Cost Optimization** | Remove and Handle idle, obsolete, and orphaned resources. |
+| 🛡️ **Compliance** | Ensure that Resources and Configurations are always in **Compliance**. |
+| 📈 **Scalability** | Apply complex actions quickly across **Multiple Accounts and Regions**. |
+| ⚙️ **Standardization** | Automating Tasks removes the Variability and Risk associated with Manual Practices. |
 
 ---
 
