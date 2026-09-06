@@ -1,5 +1,7 @@
 ### 🛠️ Setup Guide
-The automations available in this Repository use the **AWS Command Line Interface (CLI)** configured with **AWS Identity Center (SSO)** credentials. Follow the steps below to configure your environment:
+The automations available in this Repository use the **AWS Command Line Interface (CLI)** configured with **AWS Identity Center (SSO)** credentials. Follow the steps below to configure your environment
+
+---
 
 #### Prerequisites & Configuration Steps
 1. **AWS CLI Installation:** Ensure that the latest available version of the AWS CLI is Installed: [AWS CLI](https://aws.amazon.com/cli/).
