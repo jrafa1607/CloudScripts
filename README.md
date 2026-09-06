@@ -32,13 +32,12 @@ The automations available in this Repository use the **AWS Command Line Interfac
 
 #### Prerequisites & Configuration Steps
 1. **AWS CLI Installation:** Ensure that the latest available version of the AWS CLI is Installed: [AWS CLI](https://aws.amazon.com/cli/).
-2. **Configure AWS SSO:** To set up a Valid SSO Credential, use the Official AWS Guide: [Configure the AWS CLI for AWS SSO](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html).
-3. **Local Repository Setup:** You will need to copy the desired automations from this repository into a local directory in your environment.
+2. **Configure AWS SSO:** Use the Official AWS Guide: [Configure the AWS CLI for AWS SSO](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html).
+3. **Local Setup:** You will need to copy the desired scripts from this repository into your environment.
 4. **Account Definition:** Create a File named `accounts` in your local environment's directory.
-5. **Update the File:** Update this File with the **Account Names** where you intend to run the automations. 
+5. **Update the File:** Update this File with the **Account Names**. 
 
 #### File Example: `accounts`
-
 ```text
 <ProfileName-Num1>
 <ProfileName-Num2>
@@ -49,12 +48,7 @@ The automations available in this Repository use the **AWS Command Line Interfac
 6. **Authentication (SSO Credentials Configuration):**
 
 * Your CLI Installation Environment must contain the directory: `~/.aws/config`
-
 * Edit the Config File, with the **Account Name** used in the `accounts` file into the Profile Field.
-
-
-
-
 
 #### File Example: `~/.aws/config`
 
@@ -68,22 +62,6 @@ region = <default-aws-region>
 output = json
 
 [profile <ProfileName-Num2>]
-sso_start_url = <Your-SSO-Portal-URL>
-sso_region = <Your-SSO-Region>
-sso_account_id = <ID Number>
-sso_role_name = <PermissionSetRoleName>
-region = <default-aws-region>
-output = json
-
-[profile <ProfileName-Num3>]
-sso_start_url = <Your-SSO-Portal-URL>
-sso_region = <Your-SSO-Region>
-sso_account_id = <ID Number>
-sso_role_name = <PermissionSetRoleName>
-region = <default-aws-region>
-output = json
-
-[profile <ProfileName-Num4>]
 sso_start_url = <Your-SSO-Portal-URL>
 sso_region = <Your-SSO-Region>
 sso_account_id = <ID Number>
