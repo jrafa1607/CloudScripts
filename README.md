@@ -68,29 +68,19 @@ sso_account_id = <ID Number>
 sso_role_name = <PermissionSetRoleName>
 region = <default-aws-region>
 output = json
-
 ```
 
 ---
 
-## 🔐 Authentication & Execution
+#### 🔐 Authentication & Execution
 
-> After concluding the configuration of the **accounts** and **config** files, you must validate the setup by performing an AWS Login via CLI.
-> To do this, simply run the command: `aws sso login`. This command will open your browser for Authentication and store a Temporary Credential in Cache.
-> This Credential will be used to execute the automations.
-> 
-> 
+After concluding the configuration of the **accounts** and **config** files, you must validate the setup by performing an AWS Login via CLI.
+To do this, simply run the command: **`aws sso login`**. This command will open your browser for Authentication and store a Temporary Credential in Cache.
+This Credential will be used to execute the automations.
 
 ```bash
 aws sso login --profile <ProfileName-Num1>
-
 ```
-
----
-
-## 🤝 Contributing & Feedback
-
-Contributions, feature requests, and bug reports are always welcome! Feel free to open an issue or submit a pull request.
 
 ---
 
